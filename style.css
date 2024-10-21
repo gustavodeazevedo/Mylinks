@@ -1,0 +1,139 @@
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+body {
+  background: linear-gradient(to right, #112b0c, #265718);
+  color: white;
+  font-family: "Trebuchet MS";
+  text-align: center;
+}
+
+h3 {
+  font-size: 23px;
+}
+
+#p {
+  animation: bounce 5s infinite;
+  margin-bottom: 30px;
+  margin-top: 1px;
+}
+
+img {
+  width: 150px;
+  height: auto;
+  border-radius: 50%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+a {
+  background-color: white;
+  font-size: 20px;
+  border-radius: 10px;
+  padding: 10px;
+  display: block;
+  text-align: center;
+  margin: 1px;
+  color: #265718;
+  text-decoration: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.5s ease;
+}
+
+a:hover {
+  color: #ffffff;
+  background-color: #273d13;
+  transform: scale(1.1);
+}
+
+i {
+  position: relative;
+  right: 85px;
+}
+
+#icon {
+  position: relative;
+  right: -300px;
+  bottom: 44px;
+  right: -246px;
+}
+
+.fa-brands.fa-github {
+  color: #6ca835;
+  font-size: 30px;
+  line-height: 1px;
+  width: 1px;
+  height: 1px;
+  position: relative;
+  top: 4px;
+}
+
+.fa-brands.fa-linkedin {
+  color: #6ca835;
+  font-size: 30px;
+  line-height: 1px;
+  width: 1px;
+  height: 1px;
+  position: relative;
+  top: 4px;
+  right: 79px;
+}
+
+.fa-brands.fa-instagram {
+  color: #6ca835;
+  font-size: 30px;
+  line-height: 1px;
+  width: 1px;
+  height: 1px;
+  position: relative;
+  top: 4px;
+  right: 73px;
+}
+
+.fa-brands.fa-facebook {
+  color: #6ca835;
+  font-size: 30px;
+  line-height: 1px;
+  width: 1px;
+  height: 1px;
+  position: relative;
+  top: 4px;
+  right: 75.5px;
+}
+
+.fa-brands.fa-spotify {
+  color: #6ca835;
+  font-size: 30px;
+  line-height: 1px;
+  width: 1px;
+  height: 1px;
+  position: relative;
+  top: 4px;
+  right: 85.5px;
+}
+
+@keyframes bounce {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-6px);
+  }
+  60% {
+    transform: translateY(-6px);
+  }
+}
+
+footer {
+  color: #fff;
+  position: relative;
+  left: 30%;
+  top: 120px;
+}
